@@ -1,7 +1,7 @@
 # By using the symbol ':user', we get Factory Girl to simulate the User model.
 Factory.define :user do |user|
-  user.name                   "Andrew Barber"
-  user.email                  "andrew.ab@gmail.com"
+  user.name                   "qwerty"
+  user.email                  "aqwerty@gmail.com"
   user.password               "foobar"
   user.password_confirmation  "foobar"
 end
